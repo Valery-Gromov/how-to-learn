@@ -19,9 +19,12 @@
   display: flex;
 }
 
+.logo {
+  width: 183px;
+}
+
 .logo_place_header {
   position: absolute;
-  width: 183px;
   height: 32px;
   top: 30px;
   left: 64px;
@@ -275,6 +278,7 @@
   color: white;
   min-height: 350px;
   padding: 60px 0 40px 0;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -294,7 +298,6 @@
 }
 
 .logo_place_footer {
-  width: 183px;
   height: 35px;
 }
 
@@ -315,7 +318,7 @@
 .footer__column_content_social {}
 
 .footer__column-links {
-  margin-bottom: 0 16px 0;
+  margin: 0 0 16px;
   list-style: none;
   padding-left: 0;
 }
