@@ -1,4 +1,6 @@
 .khan__buy-link {
+  padding: 0;
+  margin: 0;
   color: #2f80ed;
   text-decoration: none;
   transition: opacity .1s linear;
